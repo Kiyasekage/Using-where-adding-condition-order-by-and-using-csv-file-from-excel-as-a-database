@@ -1,0 +1,4 @@
+select *
+from products
+where stock_quantity>20 and price<80000
+order by product_name
